@@ -102,11 +102,19 @@
 
   ##  Identify and explain the error in the code that is preventing correct execution of the program (100 words)
 
-    celsius = gets
-    fahrenheit = (celsius * 9 / 5) + 32
+    celsius = get.to_i
+    fahrenheit = ({celsius * 9 / 5) + 32
     print "The result is: "
     print fahrenheit
     puts "."
+
+    celsius should be inputted as integer not a string so it should be 
+
+temp_convert(celcius)
+   farenheit = (celcius *9/5.0) + 32
+   return farenheit
+
+the cel
 
  ##   The following code looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly.
 
@@ -117,6 +125,8 @@
     puts i
         arr[i] = arr[i + 1]
         arr[i + 1] = arr[i]
+
+
 
  ##   Demonstrate your algorithmic thinking through completing the following two tasks, in order:
         Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations
