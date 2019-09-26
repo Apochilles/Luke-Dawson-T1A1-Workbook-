@@ -97,3 +97,25 @@
 # allergies = {eggs: 1, peanuts: 2, shellfish: 4, strawberries: 8, tomatoes: 16, chocolate: 32, pollen: 64, cats: 128}
 
 # result = get_allergies(allergies, 6)
+
+def temperature_weather (celcius, rain) 
+  
+  if celcius < 15 && rain ==  true
+
+      puts "It’s wet and cold”"
+    
+     elsif celcius < 15 && rain == false
+        puts "It’s not raining but cold"
+
+        elsif celcius >= 15 && rain == true
+            puts "It’s warm and raining"
+
+           elsif celcius >= 15 && rain == false
+             puts "It’s warm but not raining"
+ 
+             else   
+                puts "That's not a valid temperature"
+                end                
+  end  
+      
+temperature_weather(15, false) 
