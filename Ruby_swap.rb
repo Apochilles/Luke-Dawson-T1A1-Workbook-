@@ -49,31 +49,31 @@
 
   #  You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”.
    
-  def temperature_weather (celcius, rain)
+  # def temperature_weather (celcius, rain)
   
-     if celcius < 15 && rain ==  true
+  #    if celcius < 15 && rain ==  true
 
-         puts "It’s wet and cold”"
+  #        puts "It’s wet and cold”"
 
-      elsif
+  #     elsif
         
-        if celcius < 15 && rain == false
+  #       if celcius < 15 && rain == false
 
-         puts "It’s not raining but cold"
+  #        puts "It’s not raining but cold"
  
-     elsif celcius >= 15 && rain == true
-                puts "It’s warm and raining"
+  #    elsif celcius >= 15 && rain == true
+  #               puts "It’s warm and raining"
  
-          elsif celcius >= 15 && rain == false
-                puts "It’s warm but not raining"
+  #         elsif celcius >= 15 && rain == false
+  #               puts "It’s warm but not raining"
      
-        else   
-             puts "That's not a valid temperature"
-      end                
-    end  
-  end
+  #       else   
+  #            puts "That's not a valid temperature"
+  #     end                
+  #   end  
+  # end
 
-  temperature_weather(15, false)
+  # temperature_weather(15, false)
 
 
 
