@@ -123,8 +123,7 @@ the cel
     while (i < arr.size - 1 and arr[i] < arr[i + 1])
     	i = i + 1 end
     puts i
-        arr[i] = arr[i + 1]
-        arr[i + 1] = arr[i]
+        arr[i], arr[i + 1] = arr[i + 1], arr[i]
 
 
 
