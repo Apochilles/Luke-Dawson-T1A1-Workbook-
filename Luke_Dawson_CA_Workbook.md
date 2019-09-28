@@ -34,30 +34,65 @@ Word count guide: 50 - 100 words per dot point
       
  ### Packets:     
  
- Packets are essential to the development of the internet due to the sheer volume of information traffic at any one moment. It would be ilogical for every single message to be sent in one piece as it would be huge and would take a long time to arrive at it's destination. Therefore, when we send something over the internet it does not follow a fixed path. It goes from computer to computer in something called a packet. A packet contains many different bits from many different transmissions on the internet. These packets have both the IP address of the sender and the IP address of the receiver. The packets pass through something called a router that directs the package and makes sure it goes to the right destination.
+  Packets are essential to the development of the internet due to the sheer volume of information traffic at any one time. It would be illogical for every single message to be sent in one piece as it would be huge and would take a long time to arrive at its destination. Therefore, when we send something over the internet it does not follow a fixed path. It goes from computer to computer in something called a packet. A packet contains many different bits from many different transmissions on the internet. These packets have both the IP address of the sender and the IP address of the receiver. The packets pass through something called a router that directs the package and makes sure it goes to the right destination.
 
 Through the development of packets we have ensured reliable and efficient transfers of information allowing for rapid development.
     
  ### IP addresses (IPv4 and IPv6):
 
-With so many devices in the world trying to connect to the internet, it is necessary to assign Internet protocol or IP addresses as unique identifiers to these devices. 
+With so many devices in the world trying to connect to the internet, it is necessary to assign Internet Protocol or IP addresses as unique identifiers to these devices. 
 
 IPv4, the first version of IP,  is made up of 32 binary bits. It is expressed by four base-10 numbers separated by dots. It is the more commonly used of the two.
 
 IPv6 is the newest IP address standard. It is made up of 128 binary bits and is expressed by eight groups of base-16 (hexadecimal) digits separated by colons. 
 
-    
+If it wasnt for IP computers wouldn't know how to identify themselves and others. IP allows the amount of computers in the world to grow while still being able to communicate with one another.  
+
  ### Routers and routing:
+
+When a packet travels from the computer it is sent from it will arrive at a router. The Router is a smart device that will read the IP address of the packet and make sure it's heading it's heading to the right destination in the most efficient way. 
+
+If it wasn't for routers packets would not recieve the direction required to get to their destination 
     
  ### Domains and DNS:
 
+ DNS or Domain systems takes the user friendly domain name eg: https://coderacademy.edu.au and converts it back to IP addresses so browser can load internet webpages.
+
+ Without DNS making the web more user friendly we would either have to remember long IP names as addresses to webpages or we wouldn't be able to access the webpages we use everyday. 
+
   ## 3: Define the features of the following technologies that are essential in terms of the development of the internet:
         
-TCP, HTTP and HTTPS (word count guide: 150 - 300 words)
-  Web browsers (200 - 300 words)
+TCP, HTTP and HTTPS (word count guide: 150 - 300 words) 
 
-HTTP and HTTPS:
-   Web browsers (requests, rendering and developer tools):
+TCP or Transmission Control Protocol works with your IP and determines how computers exchange packets between each other.
+
+It is in charge of breaking up data into packets that the network can deliver and manages control flow. It also retransmits lost packets and puts them back on the right path.  
+
+If it wasn't for routers packets would get lost along the route to their destination and we would end up with undelivered files making the internet unreliable an inefficient and it would not have become the powerhouse it has today  
+
+HTTP or Hypertext Transfer Protocol is used to transfer hypertext. HTTP is the foundation of data communication for the web.  
+
+It is the protocol used for viewing webpages. If you browse to "www.google.com" you send a HTTP request to the server. This is represented by the http at the start of the web address. Without HTTP we wouldn't be able to access public webpages and the internet wouldn't have been able to develop. 
+
+But what if you are inputting or accessing sensitive information? It will all be sent as unprotected text so it leave you open to attacks from hackers.
+
+This is where HTTPS or Secure Hypertext Transfer Protocol comes in. HTTPS encrypts the data being transfered over the internet is secure by using encryption. 
+
+This development allowed for private messaging or high risk activities like banking or using credit cards online.
+
+Web browsers (requests, rendering and developer tools) (200 - 300 words)
+
+Web Browsers are software that search for and display webpages. 
+
+They translate websites returned by HTTP into inteperable content. They also display HTTPS and FPS (File Tranfer Protocol )
+
+Through the browser the user requests data and the server responds. 
+
+Modern browsers now have developed features such as external plugins. 
+
+
+
+
 
 ## Explain how each technology has contributed to the development of client and server communication over the internet (50 - 150 words for each technology)
 
@@ -65,9 +100,6 @@ HTTP and HTTPS:
    HTTP:
    HTTPS:
    Web Browsers:
-
-   Word count guide: see above.
-
  
   ## 4: Identify THREE data structures used in the Ruby programming language and explain the reasons for using each.
    
@@ -83,20 +115,24 @@ Hashes are a more developed data structure. With the key and value stucture you 
 
 If we wanted to 
 
-Sets are 
+Sets are another Ruby class that stores data like an array. Unlike an array though you cannot use an index to access an element. Sets however make it very easy to identify unique entries in a list and quickly retrieve them.
+
 
  
  ## 5   Describe the features of interpreters and compilers and how they are different.
 
 Word count guide: 100 - 200 words on each way code is executed.
 
-
-
 Interpreters:
-When programming was concieved it was orginally very low level. This meant it was nearly indeciphrable to 
-
-
+When programming was conceived it was originally very low level. This meant the machine code inputted and outputted was nearly indecipherable to a human reader. As time went on and we developed more comprehensive programming languages we were able to communicate clearly with a computer while maintaining a high level of human understanding. This is known as high level programming. 
+ 
+Interpretive languages like Python and Ruby do this translation line by line as the program runs. While this means it’s easier to use, it procedurally analyses the code until it breaks making debugging easy and is more memory efficient it is also slower as interprets each line of code in real-time.   
+ 
+ 
 Compilers:
+ 
+Languages like C++ and Basic instead compile their code. When the programmer is ready to execute their code in these languages they must first run a code to generate a .exe file. This overall takes more time than interpreting but only has to translate once. When this .exe is run the code is already interpreted into machine code making it’s execution faster. It however generates intermediate machine code making it more more memory dependant. It also needs to be specifically compiled for OS X, Windows or Linux, as well as 32bit 64bit architectures.     
+
  
 
  ## 6:   Identify TWO commonly used programming languages and explain the benefits and drawbacks of each.
@@ -106,29 +142,39 @@ Word count guide: 200 - 400 words on each language
 ### Ruby on Rails:
 
 Ruby is a high level and object-oriented programming language developed by Yukihiro Matsumoto in 1995.
-
+ 
 High level programming's goal is to bring programming languages closer to our human languages. It has less abstraction and is easier to read and write. 
-
+ 
 Matz as he's more commonly known has a clear objective with Ruby. he wanted to make Ruby "natural, not just simple.”[^1]
+ 
+He also generously released it as open source, meaning it can be modified or enhanced by anyone. This is how Ruby on Rails came about. 
+ 
+In 2004, Ruby on Rails, a rapid web development framework was released as open source software. 
+ 
+As it was developed in Ruby it inherits many strengths of it’s Ruby origins. It has an extensive library of free third party modules (gems) and it is next generation which means it’s constantly getting support from new developers.
+ 
+Ruby on Rails sky rocketed into success as a web development tool and continues to have massive success to this day. Famous for its speed and ease of use leading to massive productivity. Websites such as Github, Airbnb and Etsy are all on Ruby on Rails 
+ 
+It also has a feverish fan base, the excitement at Ruby on Rails Oceania meetups in Melbourne is palpable, brimming with enthusiastic developers of all ages and experience levels looking to discuss their personal experiences with Ruby on Rails.
+ 
+Ruby on Rails has three basic principles:
+ 
+Convention over configuration, meaning that the developer only has to specify non conventional aspects of the applications allowing for less code to be written to have a working program.
+ 
+Metaprogramming, which is a method that allows the user to write programs using programs making building applications easier and faster
+ 
+And Automated testing, which means that Ruby on Rail has built in automatic testing making test cases easier to write and execute. 
+ 
+Ruby on Rails does of course does have some drawbacks. 
+ 
+Ruby on Rails is considered to have a slow runtime compared with more modern competitors such as NodeJS and GoLang. It also has a slow boot speed depending on the amount of gem dependencies and files.
 
-He also generously released it as open source meaning it can be modified or enchanced by anyone. This is how Ruby on Rails came about. 
 
-In 2004 Ruby on Rails, a rapid web development framework was released as open source software. 
-As it was developed in Ruby it continues Matz's principals .....
+#### Basic:
 
-Ruby on Rails sky rocketed into success as a web development tool and continues to have massive sucess to this day. Famous for it speed and ease of use leading to massive productivity. 
+Basic is know as the computer language of the 1980's has it's origins in 1960s. Basic was the fundamental software on all home computers of the time. 
 
-It also has a feverish fan base, the Ruby on Rails Oceania meetups in Melbourne are immensely enjoyable as they are brimming with enthusitic 
-
-
-
-
-
-
-
-
-
-#### C:
+It uses line numbers seperated by 10s. 20 and then on. These computers didn't have word processors or text editors.
 
 
 ## 7: Identify TWO ethical issues from the areas below and discuss the extent to which an IT professional is ethically responsible in terms of the issue.
@@ -358,6 +404,7 @@ https://searchapparchitecture.techtarget.com/definition/object-oriented-programm
 https://www.webopedia.com/TERM/H/high_level_language.html
 1. Matsumo, Yukihiro [https://www.ruby-lang.org/en/about/] 
 https://hackernoon.com/pros-cons-you-must-know-before-using-ruby-on-rails-for-your-startup-234ecd631aaf
+https://www.youtube.com/watch?v=seM9SqTsRG4 - 8-Bit Guy - The basics of BASIC, the programming language of the 1980s.
 
 Question 8: 
 https://www.youtube.com/watch?v=nBj2nJup8xU - Coder Academy Fast-Track - Introduction to Programming - Control Flow
