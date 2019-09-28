@@ -1,4 +1,6 @@
-  ##  Identify and explain the error in the code that is preventing correct execution of the program (100 words)
+# frozen_string_literal: true
+
+##  Identify and explain the error in the code that is preventing correct execution of the program (100 words)
 
 #  celsius = gets
 #     fahrenheit = (celsius * 9 / 5) + 32
@@ -6,13 +8,13 @@
 #     print fahrenheit
 #     puts "."
 
-  # celsius = gets.to_i
-  #   fahrenheit = (celsius * 9 / 5) + 32
-  #   print "The result is: "
-  #   print fahrenheit
-  #   puts "."
+# celsius = gets.to_i
+#   fahrenheit = (celsius * 9 / 5) + 32
+#   print "The result is: "
+#   print fahrenheit
+#   puts "."
 
- ##   The following code looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly.
+##   The following code looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly.
 
 #  arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
 #  i = 0
@@ -23,7 +25,7 @@
 
 #      puts arr
 
- # arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
+# arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
 # i = 0
 # while (i < arr.size - 1 and arr[i] < arr[i + 1])
 #   i = i + 1 end
@@ -32,7 +34,6 @@
 
 #     puts arr
 
-
 # arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
 #  i = 0
 #  while (i < arr.size - 2 and arr[i] < arr[i + 1])
@@ -40,52 +41,48 @@
 # end
 # temp = arr[i]
 # arr[i] = arr[i + 1]
-# arr [i + 1] = temp 
+# arr [i + 1] = temp
 
 # p arr.sort
 
-   # while 0 is less then 9 - 1 = 8
-   # Whats at position 4 needs to move to postion 2 and position 2 needs to move to position 3
+# while 0 is less then 9 - 1 = 8
+# Whats at position 4 needs to move to postion 2 and position 2 needs to move to position 3
 
-  #  You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”.
-   
-  # def temperature_weather (celcius, rain)
-  
-  #    if celcius < 15 && rain ==  true
+#  You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”.
 
-  #        puts "It’s wet and cold”"
+# def temperature_weather (celcius, rain)
 
-  #     elsif
-        
-  #       if celcius < 15 && rain == false
+#    if celcius < 15 && rain ==  true
 
-  #        puts "It’s not raining but cold"
- 
-  #    elsif celcius >= 15 && rain == true
-  #               puts "It’s warm and raining"
- 
-  #         elsif celcius >= 15 && rain == false
-  #               puts "It’s warm but not raining"
-     
-  #       else   
-  #            puts "That's not a valid temperature"
-  #     end                
-  #   end  
-  # end
+#        puts "It’s wet and cold”"
 
-  # temperature_weather(15, false)
+#     elsif
 
+#       if celcius < 15 && rain == false
 
+#        puts "It’s not raining but cold"
 
+#    elsif celcius >= 15 && rain == true
+#               puts "It’s warm and raining"
+
+#         elsif celcius >= 15 && rain == false
+#               puts "It’s warm but not raining"
+
+#       else
+#            puts "That's not a valid temperature"
+#     end
+#   end
+# end
+
+# temperature_weather(15, false)
 
 # def get_allergies (allergies, score)
 
-# n = score 
+# n = score
 # allergies_array = []
- 
 
 # allergies.reverse_each do |key, value|
-#   p "Key: " + key.to_s + " Value: " + value.to_s 
+#   p "Key: " + key.to_s + " Value: " + value.to_s
 #   if value <= n
 #     allergies_array << key
 #     n -= value
@@ -98,12 +95,12 @@
 
 # result = get_allergies(allergies, 6)
 
-# def temperature_weather (celcius, rain) 
-  
+# def temperature_weather (celcius, rain)
+
 #   if celcius < 15 && rain ==  true
 
 #       puts "It’s wet and cold”"
-    
+
 #      elsif celcius < 15 && rain == false
 #         puts "It’s not raining but cold"
 
@@ -112,13 +109,13 @@
 
 #            elsif celcius >= 15 && rain == false
 #              puts "It’s warm but not raining"
- 
-#              else   
+
+#              else
 #                 puts "That's not a valid temperature"
-#                 end                
-#   end  
-      
-# temperature_weather(15, false) 
+#                 end
+#   end
+
+# temperature_weather(15, false)
 
 # arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
 # i = 0
@@ -127,23 +124,22 @@
 # puts arr
 #     arr[i], arr[i + 1] = arr[i + 1], arr[i]
 
-
-#Good 
+# Good
 #      arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
 #  i = 0
 #  while (i < arr.size - 1 and arr[i] < arr[i + 1])
 #    i = i + 1 end
- 
+
 #      arr[i], arr[i + 1] = arr[i + 1], arr[i]
 
 #      puts arr
 
-# def temperature_weather (celcius, rain) 
-  
+# def temperature_weather (celcius, rain)
+
 #   if celcius < 15 && rain ==  true
 
 #       puts "It’s wet and cold"
-    
+
 #      elsif celcius < 15 && rain == false
 #         puts "It’s not raining but cold"
 
@@ -152,18 +148,16 @@
 
 #            elsif celcius >= 15 && rain == false
 #              puts "It’s warm but not raining"
- 
-#                 end                
-#   end  
 
+#                 end
+#   end
 
-# puts temperature_weather(14, true) 
-# puts temperature_weather(14, false) 
-# puts temperature_weather(15, true) 
-# puts temperature_weather(15, false) 
+# puts temperature_weather(14, true)
+# puts temperature_weather(14, false)
+# puts temperature_weather(15, true)
+# puts temperature_weather(15, false)
 
-
-# *** Refrencing 
+# *** Refrencing
 
 # def cooking_temperature(celcius)
 
@@ -179,11 +173,10 @@
 
 # puts cooking_temperature(75)
 
-
 # def truth_test(boolean)
 #   if boolean == true
 #     puts "TRUE!"
-#   else boolean == false 
+#   else boolean == false
 #     puts "False...."
 #   end
 
@@ -191,34 +184,11 @@
 
 # truth_test(false)
 
-students = ['Grace', 'Manna', 'Sean', 'Annie']
-scores = [63, 86, 77, 91]
-grade_point_average = [3.5, 2.8, 4.0, 3.7]
+# students = ['Grace', 'Manna', 'Sean', 'Annie']
+# scores = [63, 86, 77, 91]
+# grade_point_average = [3.5, 2.8, 4.0, 3.7]
 
-puts  students [0] + grade_point_average [0]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# puts  students [0] + grade_point_average [0]
 
 # # array=[1,2,3]
 # # p array.combination(2).to_a
@@ -228,68 +198,158 @@ puts  students [0] + grade_point_average [0]
 # array2=[2, 4, 8, 16, 32, 64, 128]
 # # array2.combination(2).to_a
 # Initialize it with the most we can need of any individual numbers, plus the maximum possible zero's we could use
-  # (Just picked 5, because it can't take more than 7, and we have at least 2 of everything. I know there are better ways of doing this, but I was just hacking something up quickly).
-  # x = [2.15,2.75,3.35,3.55,4.2,5.8].map{|n| [n]*(15.05/n).to_i}.flatten + [0]*5
-  # # Find all of the combinations that add up to 15.05
-  # p x.combination(7).select{|c| c.inject(:+)==15.05}.uniq
-  # x = [2, 4, 8, 16, 32, 64, 128].each{|n| [n]*(num/n).to_i}.flatten + [0]*7
-  # # Find all of the combinations that add up to 14
-  # x.combination(7).select{|c| c.inject(:+)==num}.uniq
-  # def allergy_number(num)
-  #   x = [2, 4, 8, 16, 32, 64, 128].each{|n| [n]*(num/n).to_i}.flatten + [0]*7
-  #   # Find all of the combinations that add up to 14
-  #   allergy_array = x.combination(7).select{|c| c.inject(:+)==num}.uniq.flatten
-  #   allergies = [{
-  #     name: "eggs",
-  #     score: 1
-  # }, {
-  #     name: "peanuts",
-  #     score: 2
-  # }, {
-  #     name: "shellfish",
-  #     score: 4
-  # }, {
-  #     name: "strawberries",
-  #     score: 8
-  # }, {
-  #     name: "tomatoes",
-  #     score: 16
-  # }, {
-  #     name: "chocolate",
-  #     score: 32
-  # }, {
-  #     name: "pollen",
-  #     score: 64
-  # }, {
-  #     name: "cats",
-  #     score: 128
-  # }]
-  #   b = allergy_array.map.with_index do |item, index|
-  #     if item == allergies[index][:score]
-  #       "You are allergic to #{allergies[index][:name]}"
-  #     end
-  #   end
-  #   your_allergies = []
-  #   allergy_array.each do |allergy_num|
-  #     allergies.each do |allergen|
-  #       if allergy_num == allergen[:score]
-  #         your_allergies << allergen
-  #       end
-  #     end
-  #   end
-  # return "You are allergic to #{your_allergies}"
-  # end 
-  # your_allergies = []
-  #   allergy_array.each do |allergy_num|
-  #     allergies.each do |allergen|
-  #       if allergy_num == allergen[:score]
-  #         your_allergies << allergen
-  #       end
-  #     end
-  #   end 
-  #   your_allergies.map do |allergy|
-  #     puts "You are allergic to #{allergy[:name]} with a score of #{allergy[:score]}"
-  #      end 
-  # end 
-  # allergy_number(4) 
-  ###if do .each - need to do two .each. 
+# (Just picked 5, because it can't take more than 7, and we have at least 2 of everything. I know there are better ways of doing this, but I was just hacking something up quickly).
+# x = [2.15,2.75,3.35,3.55,4.2,5.8].map{|n| [n]*(15.05/n).to_i}.flatten + [0]*5
+# # Find all of the combinations that add up to 15.05
+# p x.combination(7).select{|c| c.inject(:+)==15.05}.uniq
+# x = [2, 4, 8, 16, 32, 64, 128].each{|n| [n]*(num/n).to_i}.flatten + [0]*7
+# # Find all of the combinations that add up to 14
+# x.combination(7).select{|c| c.inject(:+)==num}.uniq
+# def allergy_number(num)
+#   x = [2, 4, 8, 16, 32, 64, 128].each{|n| [n]*(num/n).to_i}.flatten + [0]*7
+#   # Find all of the combinations that add up to 14
+#   allergy_array = x.combination(7).select{|c| c.inject(:+)==num}.uniq.flatten
+#   allergies = [{
+#     name: "eggs",
+#     score: 1
+# }, {
+#     name: "peanuts",
+#     score: 2
+# }, {
+#     name: "shellfish",
+#     score: 4
+# }, {
+#     name: "strawberries",
+#     score: 8
+# }, {
+#     name: "tomatoes",
+#     score: 16
+# }, {
+#     name: "chocolate",
+#     score: 32
+# }, {
+#     name: "pollen",
+#     score: 64
+# }, {
+#     name: "cats",
+#     score: 128
+# }]
+#   b = allergy_array.map.with_index do |item, index|
+#     if item == allergies[index][:score]
+#       "You are allergic to #{allergies[index][:name]}"
+#     end
+#   end
+#   your_allergies = []
+#   allergy_array.each do |allergy_num|
+#     allergies.each do |allergen|
+#       if allergy_num == allergen[:score]
+#         your_allergies << allergen
+#       end
+#     end
+#   end
+# return "You are allergic to #{your_allergies}"
+# end
+# your_allergies = []
+#   allergy_array.each do |allergy_num|
+#     allergies.each do |allergen|
+#       if allergy_num == allergen[:score]
+#         your_allergies << allergen
+#       end
+#     end
+#   end
+#   your_allergies.map do |allergy|
+#     puts "You are allergic to #{allergy[:name]} with a score of #{allergy[:score]}"
+#      end
+# end
+# allergy_number(4)
+# ##if do .each - need to do two .each.
+
+# Allergy test final
+
+# def allergy_search(number)
+#   allergens = {"cats" => 128, "pollen" => 64, "chocolate" => 32, "tomatoes" => 16,
+#                 "strawberries" => 8, "shellfish" => 4, "peanuts" => 2, "eggs" => 1}
+#   has_allergies = []
+#   allergens.each do |allergy, points|
+#     if number % points != number
+#       has_allergies.push(allergy, points)
+#       number = number % points
+#     end
+#   end
+#  has_allergies
+# end
+
+# puts allergy_search(255)
+
+# class Numbers
+
+#   def is_a_prime?(int)
+#     x = 2
+#     while x < int/2
+#       if int % x == 0
+#         return false
+#       else
+#         return true
+#       end
+#     end
+#   end
+
+#   def primes_under_100
+#     x = 2
+#     while x < 100
+#       # Notice you're calling is_a_prime? on the instance of the Numbers object
+#       # and sending x as an argument. Not calling is_a_prime? on the 'x'
+#       puts x if is_a_prime?(x)
+#       x+= 1
+#     end
+#   end
+# end
+
+# Numbers.new.primes_under_100
+
+# prime_array = [0]
+
+# (1...100).each do |num|
+#   if (1..num).select { |d| num % d == 0 } == [1, num]
+#     prime_array.push(num)
+#   end
+# end
+
+# puts prime_array
+
+# def weather_conditions(temperature, raining)
+#   if temperature < 15 && raining == true
+
+#     puts 'It’s wet and cold'
+
+#   elsif temperature < 15 && raining == false
+#     puts 'It’s not raining but cold'
+
+#   elsif temperature >= 15 && raining == false
+#     puts 'It’s warm but not raining'
+
+#   else temperature >= 15 && raining == true
+#        puts 'It’s warm and raining'
+
+#   end
+# end
+
+# puts weather_conditions(14, true)
+# puts weather_conditions(14, false)
+# puts weather_conditions(15, false)
+# puts weather_conditions(15, true)
+
+# arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
+# i = 0
+# i += 1 while (i < arr.size - 1) && (arr[i] < arr[i + 1])
+
+# arr[i], arr[i + 1] = arr[i + 1], arr[i]
+
+# puts arr
+
+celsius = gets.to_i
+fahrenheit = (celsius * 9 / 5) + 32
+print "The result is: "
+print fahrenheit
+puts "."
+
