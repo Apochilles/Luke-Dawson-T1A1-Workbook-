@@ -4,14 +4,29 @@
 
 ## 1: Research the development of the internet from 1980 to today. You must describe at least FIVE key events in the development of the internet. You can refer to events, people of significance, or technologies and how they have changed over time.
 
-Event 1: In 1969 Leonard Kleinrock and and fathers of the internet 
-Event 2: 
-Event 3:
-Event 4:
-Event 5:
-
-Word count guide 300 - 500 words.
-
+ 
+Prior to the 1990's some major strides in the development of the internet had already been made we had made.  We had networking, We had sent a message between two computers,the first email had been sent TCP, routing and IP had all been developed but it wasn't until the 1990's that the internet began to touch our personal lives. 
+ 
+On August 6th, 1991 the world's first website was published by Tim Berners-Lee, an employee at Cern. At this point he had already coined the term World Wide Web and the first standard for HMTL and URL's.
+ 
+The url was http://info.cern.ch. and it contained information about the World Wide Web and how you could use it. 
+ 
+Tim Berners-Lee expressed humility in his creation and did not patent his web technology. He wants the web to be open and free to allow as much collaboration and development as possible. He later said "Had the technology been proprietary, and in my total control, it would probably not have taken off. You can’t propose that something be a universal space and at the same time keep control of it.”[^2]
+ 
+Now that webpages were possible people has already begun iterating on the idea. The first blog appeared in early 1994. Written by Justin Hall, a student at Swarthmore College in Pennsylvania 'Justin’s Links From The Underground' was a personal journal focussed on sharing his life with those online. 
+ 
+Even though websites had become somewhat popularised and were being used creatively we he had no way of indexed all these sites popping up. In comes Web Crawlers and Search engines. 
+ 
+In 1994 first full web browser was launched called Web Crawler.
+ 
+In May 1997 the First social media platform, Six Degrees launched. While it was a dinosaur it still included many of the features we take for granted today such as profiles, friends lists, and school affiliations. Unfortunately the internet was far too novel at the time and only 2% of the world was online. It was only in 2002 with the development of Friendster that social media really blew up.  
+ 
+Some would say that internet video is the biggest thing of internet and that all started with the development of Youtube in 2005. The first video was titled me at the zoo but by the end of the year it had its first video hit one million views.  
+It is now the third most visited site on the web and second most used search engine  
+ 
+The question is, where are things going next? What will be the next internet development. 
+ 
+ 
  ## 2: Define the features of the following technologies that are essential in terms of the development of the internet:    
  ### Explain how each technology has contributed to the development of the internet.
     
@@ -19,9 +34,18 @@ Word count guide: 50 - 100 words per dot point
       
  ### Packets:     
  
-Packets are quintes
+ Packets are essential to the development of the internet due to the sheer volume of information traffic at any one moment. It would be ilogical for every single message to be sent in one piece as it would be huge and would take a long time to arrive at it's destination. Therefore, when we send something over the internet it does not follow a fixed path. It goes from computer to computer in something called a packet. A packet contains many different bits from many different transmissions on the internet. These packets have both the IP address of the sender and the IP address of the receiver. The packets pass through something called a router that directs the package and makes sure it goes to the right destination.
+
+Through the development of packets we have ensured reliable and efficient transfers of information allowing for rapid development.
     
  ### IP addresses (IPv4 and IPv6):
+
+With so many devices in the world trying to connect to the internet, it is necessary to assign Internet protocol or IP addresses as unique identifiers to these devices. 
+
+IPv4, the first version of IP,  is made up of 32 binary bits. It is expressed by four base-10 numbers separated by dots. It is the more commonly used of the two.
+
+IPv6 is the newest IP address standard. It is made up of 128 binary bits and is expressed by eight groups of base-16 (hexadecimal) digits separated by colons. 
+
     
  ### Routers and routing:
     
@@ -307,7 +331,12 @@ b) puts allergy_search(255 #this will print the full list of allergies#)
 
 # Referencing 
 
-Question 2: 
+Question 1:
+https://www.history.com/news/the-worlds-first-web-site
+https://www.salientmarketing.com/seo-resources/search-engine-history/webcrawler.html
+https://www.cbsnews.com/pictures/then-and-now-a-history-of-social-networking-sites/2/
+
+Question 2:
 https://coderacademy.instructure.com/courses/240/pages/how-the-internet-works?module_item_id=9856​
 https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm
 https://www.guru99.com/difference-ipv4-vs-ipv6.html
