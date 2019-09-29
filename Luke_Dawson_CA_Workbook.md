@@ -5,28 +5,40 @@
 
 ## 1: Research the development of the internet from 1980 to today. You must describe at least FIVE key events in the development of the internet. You can refer to events, people of significance, or technologies and how they have changed over time.
 
-The seeds of the internet were sown in the late 1950's with the launching of Sputnik One. America's leaders acted swiftly and decisively deciding they would need a way to collect and access all available technological information at any time. In 1958 APRA (The Advanced Research Projects Agency) was founded and In 1969, four university computers in America had been linked, allowing for primitive national communication and sharing of information. APRA then developed packets as an efficient way to send data to other computers in their small network. With the 1970’s came more breakthroughs with the development of TCP and IP allowing their single Network to become a Network of Networks.   
+The seeds of the internet were sown in the late 1950's with the launching of the satellite Sputnik One. 
  
-Despite these major advancements the internet was still very much an academic, government and military technology. It wasn’t until the 1990’s that steps were made to make the internet public and it became a household name 
+America's leaders acted swiftly and decisively deciding they would need a way to collect and access all available technological information at any time. 
+ 
+In 1958 APRA (The Advanced Research Projects Agency) was founded and In 1969, four university computers in America had been linked, allowing for primitive national communication and sharing of information. 
+ 
+APRA then developed packets as an efficient way to send data to other computers in their small network. 
+ 
+With the 1970’s came more breakthroughs with the development of TCP and IP allowing a single Network to become a Network of Networks.   
+ 
+Despite these major advancements the internet was still very much an academic, government and military technology. It wasn’t until the 1990’s that steps were made to make the internet public and it became the household technology we use today. 
  
 When Tim Berners-Lee joined Cern in 1979 he wrote a program to understand who did what at Cern. His Program worked by picking up on keywords and cross referencing them. It was called Enquire and worked like an encyclopedia. It was the ideas from this program that launched his major breakthrough, The World Wide Web 
  
 The World Wide Web's goal was to allow Cern staff to share information with each other from all around the world. WWW had two principals. HTML or HyperText Markup Language and URL or Universal Resource Locator.
  
-HTML is a universal computer language that we use to access the internet while URL is a reference to a website. He used these technologies to launch the first public Website on August 6, 1991. Fortunately, Berner-Lee insisted he did not want to patent this technology allowing for rapid adoption and development of these technologies.
+HTML is a universal computer language that we use to access the internet while URL is the web address used to access a website. He used these technologies to launch the first public Website on August 6, 1991. 
  
-Now public facing websites were a possibility, the first blog appeared in early 1994. Written by Justin Hall, a student at Swarthmore College in Pennsylvania 'Justin’s Links From The Underground' was a personal journal focussed on sharing his life with other students, friends and his family.Though this seems a very common practice on the internet today, this was an extremely novel concept at the time and by 2005 a study was released saying that 32 million Americans read internet blogs. 
+Fortunately, Berner-Lee insisted he did not want to patent this technology allowing for rapid adoption and development of these technologies.
  
-By the mid nineties, even though websites had become somewhat popularised and were being used creatively, we he had no way of indexing all these sites popping up. The internet needed Search engines.
+The first blog appeared in early 1994. Written by Justin Hall, a student at Swarthmore College in Pennsylvania 'Justin’s Links From The Underground' was a personal journal focussed on sharing his life with other students, friends and his family.
+ 
+Though this was an extremely novel concept at the time by 2005 a study was released saying that 32 million Americans read internet blogs. 
+ 
+By the mid nineties, even though websites had become somewhat popularised and were being used creatively, we had no way of indexing all these sites popping up. The internet needed Search engines.
  
 The concept of the search engine had been around for some time but had limited scope and were mainly used in universities for research purposes.
  
 In 1998 Google Search was launched and used algorithms to do more specific indexing allowing for better search results and became the template for search engines going forward. 
  
-In May 1997 the First social media platform, Six Degrees launched. While it was a dinosaur it still included many of the features we take for granted today such as profiles, friends lists, and school affiliations. Unfortunately the internet was far too novel at the time and only 2% of the world was online. It was only in 2002 with the development of Friendster followed by the massive Myspace and Facebook that social media really blew up. 
+In May 1997 the First social media platform, Six Degrees launched. While it was a prototype it still included many of the features we take for granted today such as profiles, friends lists, and school affiliations. Unfortunately the internet was far too infantile at the time and only 2% of the world was online. It was only in 2002 with the development of Friendster followed by Myspace and subsequentantly, Facebook that social media really blew up. 
  
-Some would say that internet video is now the biggest thing of internet. Prior to this we only had access to TV, video and DVD so the when Youtube arrived in 2005 and offered of video on demand, 24/7 it skyrocketed to success and continues to be the most popular form of video content today.  
- 
+Some would say that internet video is now the biggest thing of internet. Prior to this we only had access to TV, video and DVD so the when Youtube arrived in 2005 and offered of video on demand, 24/7 it skyrocketed to success. Youtube continues to be the most popular form of video content today and is the second most visited site on the internet.  
+
  
  ## 2: Define the features of the following technologies that are essential in terms of the development of the internet:    
  ### Explain how each technology has contributed to the development of the internet.
@@ -35,7 +47,11 @@ Word count guide: 50 - 100 words per dot point
       
  ### Packets:     
  
-  Packets are essential to the development of the internet due to the sheer volume of information traffic at any one time. It would be illogical for every single message to be sent in one piece as it would be huge and would take a long time to arrive at its destination. Therefore, when we send something over the internet it does not follow a fixed path. It goes from computer to computer in something called a packet. A packet contains many different bits from many different transmissions on the internet. These packets have both the IP address of the sender and the IP address of the receiver. The packets pass through something called a router that directs the package and makes sure it goes to the right destination.
+  Packets are essential to the development of the internet due to the sheer volume of information traffic at any one time. 
+  
+  It would be illogical for every single message to be sent in one piece as the amount of data would be huge and would take a long time to arrive at its destination. Therefore, when we send something over the internet it does not follow a fixed path. It goes from device to device in something called a packet. 
+  
+  A packet contains many different bits from many different transmissions on the internet. These packets have both the IP address of the sender and the IP address of the receiver. The packets pass through something called a router that directs the package and makes sure it goes to the right destination.
 
  ### IP addresses (IPv4 and IPv6):
 
@@ -45,13 +61,13 @@ IPv4, the first version of IP, is made up of 32 binary bits. It is expressed by 
 
 IPv6 is the newest IP address standard. It is made up of 128 binary bits and is expressed by eight groups of base-16 (hexadecimal) digits separated by colons. 
 
-IP is how the devices identify themselves and others. IP allows the amount of computers in the world to  exponetionally grow, while still being able to maintain unique identities.  
+IP is how the devices identify themselves and others. IP allows the amount of computers in the world to  exponetionally grow, while still being able to maintain unique identifiers.  
 
  ### Routers and routing:
 
-When a packet travels from the computer it is sent from it will arrive at a router. The Router is a smart device that will read the IP address of the packet and make sure it's heading to the right destination in the most efficient way. It is able to identify congestion it will re route the traffic to ensure the information travels in a timely fashion 
+When a packet travels from the computer it is sent from it will arrive at a router. The Router is a smart device that will read the IP address of the packet and make sure it's heading to the right destination in the most efficient way. It is able to identify congestion it will re-route the traffic to ensure the information travels in a timely fashion 
 
-If it wasn't for routers packets would not travel efficiently to their destination  
+If it wasn't for routers packets would not travel efficiently to their destination.  
     
  ### Domains and DNS:
 
@@ -71,7 +87,7 @@ Without TCP, packaging and maintaining quality control of information over the i
 
 HTTP or Hypertext Transfer Protocol is used to transfer hypertext. HTTP is the foundation of data communication for the web.  
 
-It is the protocol used for viewing webpages. If you browse to "www.google.com" you send a HTTP request to the server. This is represented by the ```` http:\\ ```` at the start of the web address. Without HTTP we wouldn't be able to access public webpages and the internet wouldn't have been able to develop. 
+It is the protocol used for viewing webpages. If you browse to "www.google.com" you send a HTTP request to the server. This is represented by the  'http:\\' at the start of the web address. Without HTTP we wouldn't be able to access public webpages and there would be no internet. 
 
 But what if you are inputting or accessing sensitive information? It will all be sent as unprotected text so it leave you open to attacks from hackers.
 
@@ -197,47 +213,69 @@ Ruby on Rails does of course does have some drawbacks.
 Ruby on Rails is considered to have a slow runtime compared with more modern competitors such as NodeJS and GoLang. It also has a slow boot speed depending on the amount of gem dependencies and files.
 
 
-#### Basic:
+#### Python:
 
-Basic or Beginner's All-Purpose Symbolic Instruction Code is know as the computer language of the 1980's. 
-Basic is a general-purpose, high-level programming language and has it's origins in 1960's and was developed by Dartmouth mathematicians as a teaching tool for undergraduates. 
+Python is an extremely popular general-purpose high-level programming language. It was designed by Guido Van Rossum in 1991 and was developed by Python Software foundation. 
 
-Basic took on a new life in 1975 when Microsoft wrote a version of basic for The Altair personal computer. Later this version was adopted by Apple and IBM's DOS. 
+Python is often compared with Ruby as they are both open source, interpreted and high-level programming languages that work to increase productivity by making the language both easy to understand and write and easy to test due to their interpretive nature
 
-The craze at the time was books with instructions to program simple games and programs from scratch. Basic begins every line of code with a line number beginning at 10 and moving up in 10's from there. These computers didn't have word processors or text editors so it was hard to go back and edit lines so you had to be very careful with your input.   
+A key pillar in Python's Philosophy is readability. Guido Van Rossum is famous for saying he wants 'Python to eventually as understandable and clear as plain English.'[^3] 
 
-Basics inherit simplicity was one of it's greatest strengths. Following along with a book you could have a working version of hangman running on your home PC within an hour with no previous experience with the language. 
+Pythons most popular application is as a scripting language for web applications, allowing certain tasks to be automated to increase efficiency. Certain web frameworks are also built in Python including django and flask. Python is also used in mathematics and data science applications. 
 
-Unfortunately this was also it's most major limitation. 
+Pythons strengths lie in it's pre scripted support libraries, allowing for less coding and more productivity. It also has access to Third party modules easy intergration with of languages and platforms. It is designed to be extremely easy to use so your energy is better spent developing then writing code. 
 
+However, It is a very 'different' programming language and therefore is hard to juggle with other languages. It is a weak language for mobile applications is only extensively used in desktop configurations,  it is slightly slower as it is interpretive language, it is dynamically typed so some bugs only rear their head once the full application has run. 
 
-
-
-
-
-
-
+In conclusion Python is an important programming language but like all languages it has it's place in the industry and should be utilized accordingly
 
 
 ## 7: Identify TWO ethical issues from the areas below and discuss the extent to which an IT professional is ethically responsible in terms of the issue.
 
 Word count guide: 200 - 400 words for each ethical issue
 
-      
- criminal acts such as theft, fraud, trafficking and distribution of prohibited substances, terrorism:
-
-aggressive sales and marketing practices designed to mislead and deceive consumers:
-        
+It is extremely important as an IT professional to take your clients privacy seriously while maintaining they themselves behave in a legal manner.
+ 
+I am going to specifically going to focus on the ethical responsibility of an IT security professional and their access to a user’s personal information (medical, family, financial, personal attributes such as sexuality, religion, or beliefs). 
+ 
+They are responsible for the security of a network you have access to a large amount of information. Without understanding how the systems work, the code of conduct of the organisation and who has access to where they would have no idea what was normal and abnormal. 
+ 
+During routine operations they read an email that reveals a secret affair going on in a business that doesn't allow in office romances and they are communicating via work email. Whether you like it or not you now know information that could potentially get two people fired from their jobs. Do you contact the CEO and let him know that you didn't find anything Illegal but you did find information that you think is a breach of the company policy. It may be more ethically responsible to contact them personally and warn them that you know and if you don't immediately stop you will be taking it higher or wait to see if they disclose it themselves before going to the CEO with the information
+ 
+It is also important as an IT professional to no be upfront about what marketing and sales practices you utilize or are involved with.
+ 
+For this example I am going to focus on app developers and aggressive sales and marketing practices designed to mislead and deceive consumers: 
+ 
+If you were a professional mobile game developer you would currently have no shortage of work. But with any new industry there are companies trying to stretch the boundaries of what they can get away with legally but possibly not ethically. 
+ 
+In this example the IT professional is the client of a producer of a Clash of the Clans-like mobile games. The client wants the developer to add a feature that trawls through the users device and collects personal information. When asked if this is legal the client responds that they would include extremely small fine print in the bottom of the description of the game on the app store therefore the user are consenting to these terms by downloading the application. 
+ 
+Even though it may be legal for the producer of the game to include this feature it it the developers ethical responsibility insist that the warning be more readable or be included in game where it will definitely be seen. If the creator refuses to change their methods the developer may refuse to work on the game any further due to the fact the app may be taking private information from unassuming users include friends and family. 
 
 ### For each ethical issue identify a source of legal information relating to the ethical issue and discuss whether the law is helpful in assisting a developer to act in an ethical way.
 
-   criminal acts such as theft, fraud, trafficking and distribution of prohibited substances, terrorism:
+  Access to a user’s personal information (medical, family, financial, personal attributes such as sexuality, religion, or beliefs). 
 
-   aggressive sales and marketing practices designed to mislead and deceive consumers:
+  https://www.parliament.vic.gov.au/images/stories/committees/lawrefrom/technology/barisic_paper.pdf
+
+
+
+   Aggressive sales and marketing practices designed to mislead and deceive consumers:
 
    Word count guide: 200 words max
 
     Conduct research into a case study of ONE of the ethical issues you have chosen discuss how an ethical IT professional should respond to the case study and how they might mitigate or prevent ethical breaches.
+
+In July of this year it was revealed that an android game named Scary Granny ZOMBY Mod: The Horror Game 2019 was collecting was attempting to collect users Gmail account details and passwords that launched full screen advertisements encouraging users to enter their Google account details. It would then log into the accounts and collect personal data. The game used the keyword 'granny' in its name to capitalize on the success of another play store game. Upon discovering this Google immediately removed from the play store. 
+ 
+  An ethical IT professional would respond to this in different way depending on their role. 
+  
+  If they worked for the Google Play store they may arrange superior quality control for applications going up on the store. They may speak to the higher ups of the company and insist that sometimes a algorithm cannot pick up on certain nuances that can take advantage of users of the store.
+ 
+  If the IT professional is an app developer themselves they may become more involved with the apps they are in charge of developing. They may ask more questions about certain features and ask about the intentions of the designer.
+
+
+    Source: https://www.cyberscoop.com/scary-granny-zomby-android-credential-stealing-wandera/
 
    Word count guide: 400 - 600 words
 
@@ -267,15 +305,11 @@ When I call my function the  ``` == ``` tells my computer that if the parameter 
 
    ## 9: Explain type coercion (100 words)
 
-   Type coercion in programming is changing one data type to another. 
+ Programming languages have ways to convert data from one type to another. In ruby we use the methods ``` to_i ``` and ``` to_s ``` to implicitly influence data types to associate but there is no `to_boolean’in ruby so we need to use coercion. Type coercion in programming is implicitly persuading a truthy or falsey data type to interact with a boolean.
+ 
+
+  
    
-   Common examples of data types include integers, booleans and string.
-
-   Often we are required to transform these data types so that the language 
-   can interpret what we are asking of it.  
-
-
-
 
    ## 10: Explain data types, using examples (100 words)
 
@@ -304,9 +338,19 @@ My floats in the grade_point_average array are separated by a decimal ``` . ``` 
 
    Identify the classes you would use to solve the problem:
 
-
+   The customers have two requests they want to choose a type food and they want to be able to buy their choice of food.
+   My class would be 
+   ```
+   class = Menu 
+   ```
+   The class would have two attributes
+   ```
+   (item,price)
+   ```
 
    Write a short explanation of why you would use the classes you have identified
+
+   my ``` menu ``` class would contains methods to order specific menu items. By having only one class it would make it very easy to program code to allow customers to purchase food and for my class to take their input and produce an item repesenting their food order.
 
   ## 12:  Identify and explain the error in the code that is preventing correct execution of the program (100 words)
 ```
@@ -316,6 +360,8 @@ print "The result is: "
 print fahrenheit
 puts "."
 ```
+Sometimes when we write a piece of code it will look right but there will be a small bit of code stopping it from executing correctly. In this case, 
+``` celcius is = gets ``` is incorrect and will not return a valid answer.  
 
 Celcius needs to be inputted as an integer. When we use ``` gets ``` the ruby code expects us to input a string. Even if we provide it with an integer, the ```gets``` method will convert the integer into string 0 which will error the program.
 
@@ -455,6 +501,13 @@ https://www.webopedia.com/TERM/H/high_level_language.html
 1. Matsumo, Yukihiro [https://www.ruby-lang.org/en/about/] 
 https://hackernoon.com/pros-cons-you-must-know-before-using-ruby-on-rails-for-your-startup-234ecd631aaf
 https://www.w3schools.com/python/python_intro.asp
+2. Van Rossum, Guido [https://codeinstitute.net/blog/what-is-python-used-for/]
+https://codeinstitute.net/blog/what-is-python-used-for/
+https://medium.com/@mindfiresolutions.usa/advantages-and-disadvantages-of-python-programming-language-fd0b394f2121
+
+Question 7:
+http://www.professionalsaustralia.org.au/information-technology/privacy/
+https://www.computerworld.com/article/2557944/ethical-issues-for-it-security-professionals.html
 
 Question 8: 
 https://www.youtube.com/watch?v=nBj2nJup8xU - Coder Academy Fast-Track - Introduction to Programming - Control Flow
