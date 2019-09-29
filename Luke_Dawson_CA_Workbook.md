@@ -5,37 +5,27 @@
 
 ## 1: Research the development of the internet from 1980 to today. You must describe at least FIVE key events in the development of the internet. You can refer to events, people of significance, or technologies and how they have changed over time.
 
-The seeds of the internet were sown in the late 1950's with the launching of Sputnik One. America's leaders acted swiftly and decided they would need a way to collect and access all the available technological information at any time. 
+The seeds of the internet were sown in the late 1950's with the launching of Sputnik One. America's leaders acted swiftly and decisively deciding they would need a way to collect and access all available technological information at any time. In 1958 APRA (The Advanced Research Projects Agency) was founded and In 1969, four university computers in America had been linked, allowing for primitive national communication and sharing of information. APRA then developed packets as an efficient way to send data to other computers in their small network. With the 1970’s came more breakthroughs with the development of TCP and IP allowing their single Network to become a Network of Networks.   
  
-In 1958 APRA (The Advanced Research Projects Agency) was founded and In 1969, four university computers in America had been linked allowing for primitive national communication. 
+Despite these major advancements the internet was still very much an academic, government and military technology. It wasn’t until the 1990’s that steps were made to make the internet public and it became a household name 
  
-APRANET then developed packets as an efficient way to send data to over computers in their small network.
+When Tim Berners-Lee joined Cern in 1979 he wrote a program to understand who did what at Cern. His Program worked by picking up on keywords and cross referencing them. It was called Enquire and worked like an encyclopedia. It was the ideas from this program that launched his major breakthrough, The World Wide Web 
  
-With the 1970’s came more breakthroughs with the development of TCP and IP allowing the Network to become a Network of Networks.   
+The World Wide Web's goal was to allow Cern staff to share information with each other from all around the world. WWW had two principals. HTML or HyperText Markup Language and URL or Universal Resource Locator.
  
-Despite these major advancements the internet was still very much government and military technology. It wasn’t until the 1990’s that steps were made to make the internet public that it became a household name 
+HTML is a universal computer language that we use to access the internet while URL is a reference to a website. He used these technologies to launch the first public Website on August 6, 1991. Fortunately, Berner-Lee insisted he did not want to patent this technology allowing for rapid adoption and development of these technologies.
  
-When Tim Berners-Lee joins Cern in 1979 he wrote a program to understand who did what at Cern. His Program worked by picking up on keywords and cross referencing them. It was called Enquire and worked like an encyclopedia.
+Now public facing websites were a possibility, the first blog appeared in early 1994. Written by Justin Hall, a student at Swarthmore College in Pennsylvania 'Justin’s Links From The Underground' was a personal journal focussed on sharing his life with other students, friends and his family.Though this seems a very common practice on the internet today, this was an extremely novel concept at the time and by 2005 a study was released saying that 32 million Americans read internet blogs. 
  
-It was the ideas from this program that launched his major breakthrough, The World Wide Web 
+By the mid nineties, even though websites had become somewhat popularised and were being used creatively, we he had no way of indexing all these sites popping up. The internet needed Search engines.
  
-The World Wide Web had the goal of allowing Cern staff to share information from all around the world. WWW had two principals. HTML or HyperText Markup Language and URL or Universal Resource Locator.
- 
-HTML is a universal computer language that we use to access the internet while URL is a specific identifier for a website. He used these technologies to launch the first public Website on August 6, 1991. Fortunately Berner-Lee insisted he did not want to patent this technology allowing for rapid adopting and development of his technologies.
- 
-Now public facing websites were a possibility, the first blog appeared in early 1994. Written by Justin Hall, a student at Swarthmore College in Pennsylvania 'Justin’s Links From The Underground' was a personal journal focussed on sharing his life with those online.
- 
-Though this seems a very common practice on the internet today, this was an extremely novel concept at the time.
- 
-By the mid nineties, even though websites had become somewhat popularised and were being used creatively we he had no way of indexing all these sites popping up. In comes Web Crawlers and Search engines.
- 
-The concept of the search engine had been around for sometime but had limited scope and were mainly used in universities for research purposes.
+The concept of the search engine had been around for some time but had limited scope and were mainly used in universities for research purposes.
  
 In 1998 Google Search was launched and used algorithms to do more specific indexing allowing for better search results and became the template for search engines going forward. 
  
-In May 1997 the First social media platform, Six Degrees launched. While it was a dinosaur it still included many of the features we take for granted today such as profiles, friends lists, and school affiliations. Unfortunately the internet was far too novel at the time and only 2% of the world was online. It was only in 2002 with the development of Friendster that social media really blew up. 
+In May 1997 the First social media platform, Six Degrees launched. While it was a dinosaur it still included many of the features we take for granted today such as profiles, friends lists, and school affiliations. Unfortunately the internet was far too novel at the time and only 2% of the world was online. It was only in 2002 with the development of Friendster followed by the massive Myspace and Facebook that social media really blew up. 
  
-Some would say that internet video is now the biggest thing of internet and that all started with the development of Youtube in 2005. Prior to this we only had access to TV, video and DVD so the idea of video on demand, 24/7 skyrocketed to success and continues to be the most popular form of video content today.  
+Some would say that internet video is now the biggest thing of internet. Prior to this we only had access to TV, video and DVD so the when Youtube arrived in 2005 and offered of video on demand, 24/7 it skyrocketed to success and continues to be the most popular form of video content today.  
  
  
  ## 2: Define the features of the following technologies that are essential in terms of the development of the internet:    
@@ -107,9 +97,28 @@ This is important to web developers so they can see how their webpages are rende
 ## Explain how each technology has contributed to the development of client and server communication over the internet (50 - 150 words for each technology)
 
    TCP:
-   HTTP:
+     When a client requests a web page they are asking the server to provide a service. 
+     
+     The clients IP connects with TCP of the server which determine how the many packets the information will be in and sends the packet on it's way.
+     
+    Once it's arrival has been confirmed by TCP it shuts down. The reason it does this is because it is stateless. This means that every new request, even if you close your webpage and reload it is a new request.  
+
+    The purpose of this to free up networks for continuous use allowing constant two way client\server interaction the internet    
+
+   HTTP: 
+   Once the client has connected with the TCP the client sends a HTTP GET request to the server asking for the website to be displayed in the browser. HTTP is the language our browser uses to talk to the server and is neccesary for clients and servers to communicate on the internet.
+
+   Without a universal language we as the client would have no way of requesting information from the server and the internet wouldn't be able to function.  
+
    HTTPS:
-   Web Browsers:
+  If the server contains sensitive information and the client sends a GET request to the server the server will respond with it's certificate. The browser then checks if the certificate is valid. 
+
+  If the security conditions are met the user is able to display the website, otherwise they are warned by the browser. 
+
+  Without this service there would be no way the server would be able to identify if you were a legitimate or ilegimate client and we wouldn't have any privacy of the internet. 
+
+Web Browsers:
+  Web Browsers allow internet users to connects to servers as a client. Without a browser a user connected to internet would have no way of requesting information from a server on the internet. Even if we could request these webpages without a browser we wouldn't be able to render the HTML and CSS that we recieved from the GET request and the information recieved would be indespharble to a human. 
  
   ## 4: Identify THREE data structures used in the Ruby programming language and explain the reasons for using each.
    
@@ -117,15 +126,23 @@ This is important to web developers so they can see how their webpages are rende
 
 Ruby uses Data Structures to file and reference data.
 
-Array's is the first example taught of data structures. Arrays are an ordered integer-index that can contain different data types. 
+Arrays are an ordered integer-index that can contain different data types. Information in an array can be indexed starting at 0 and ending at -1. 
 
-If we had a range of information we would put it into an array so it would be easily accesible with methods. Using these we can easily add, subtract or edit our arrays. 
+Arrays allow you to store multiple values into a variable which are easily accesible with methods. Using these we can easily add, subtract from our ordered list of information.  
 
-Hashes are a more developed data structure. With the key and value stucture you can assign a key to a data type. 
+For example if I wanted to assign a sex, age and status to a student name I could use an array to store the information in the name variable to be retrieved later. 
 
-If we wanted to 
 
-Sets are another Ruby class that stores data like an array. Unlike an array though you cannot use an index to access an element. Sets however make it very easy to identify unique entries in a list and quickly retrieve them.
+Hashes are a more developed data structure. They index data into a key and value stucture. 
+
+Using this you can index a hash with other datatypes, not just intergers. This is most useful when we need our data to be specifically labelled. 
+
+For example, if we wanted to catalog a classroom of 28 student names we would use a hash as we could assign Classroom key to student name values.
+
+
+Sets are another Ruby class that stores data like an array. Unlike an array though you cannot use an index to access an element. There is also no duplicates allowed in a set.  
+
+Sets however make it very easy to identify unique entries in a list and quickly retrieve them.
 
 
  
@@ -182,9 +199,24 @@ Ruby on Rails is considered to have a slow runtime compared with more modern com
 
 #### Basic:
 
-Basic is know as the computer language of the 1980's has it's origins in 1960s. Basic was the fundamental software on all home computers of the time. 
+Basic or Beginner's All-Purpose Symbolic Instruction Code is know as the computer language of the 1980's. 
+Basic is a general-purpose, high-level programming language and has it's origins in 1960's and was developed by Dartmouth mathematicians as a teaching tool for undergraduates. 
 
-It uses line numbers seperated by 10s. 20 and then on. These computers didn't have word processors or text editors.
+Basic took on a new life in 1975 when Microsoft wrote a version of basic for The Altair personal computer. Later this version was adopted by Apple and IBM's DOS. 
+
+The craze at the time was books with instructions to program simple games and programs from scratch. Basic begins every line of code with a line number beginning at 10 and moving up in 10's from there. These computers didn't have word processors or text editors so it was hard to go back and edit lines so you had to be very careful with your input.   
+
+Basics inherit simplicity was one of it's greatest strengths. Following along with a book you could have a working version of hangman running on your home PC within an hour with no previous experience with the language. 
+
+Unfortunately this was also it's most major limitation. 
+
+
+
+
+
+
+
+
 
 
 ## 7: Identify TWO ethical issues from the areas below and discuss the extent to which an IT professional is ethically responsible in terms of the issue.
@@ -403,6 +435,9 @@ https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhite
 https://www.guru99.com/difference-ipv4-vs-ipv6.html
 
 Question 3: 
+https://love2dev.com/blog/how-https-works/
+
+Question 3: 
 https://hackernoon.com/compilers-and-interpreters-3e354a2e41cf
 https://www.programiz.com/article/difference-compiler-interpreter
 
@@ -419,7 +454,7 @@ https://searchapparchitecture.techtarget.com/definition/object-oriented-programm
 https://www.webopedia.com/TERM/H/high_level_language.html
 1. Matsumo, Yukihiro [https://www.ruby-lang.org/en/about/] 
 https://hackernoon.com/pros-cons-you-must-know-before-using-ruby-on-rails-for-your-startup-234ecd631aaf
-https://www.youtube.com/watch?v=seM9SqTsRG4 - 8-Bit Guy - The basics of BASIC, the programming language of the 1980s.
+https://www.w3schools.com/python/python_intro.asp
 
 Question 8: 
 https://www.youtube.com/watch?v=nBj2nJup8xU - Coder Academy Fast-Track - Introduction to Programming - Control Flow
