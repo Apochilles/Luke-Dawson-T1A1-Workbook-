@@ -1,30 +1,41 @@
 
 # A1 - Workbook - Term 1
 # Assessment Title 	Assessment 1 - Workbook
+### See bottom of the page for referencing material 
 
 ## 1: Research the development of the internet from 1980 to today. You must describe at least FIVE key events in the development of the internet. You can refer to events, people of significance, or technologies and how they have changed over time.
 
+The seeds of the internet were sown in the late 1950's with the launching of Sputnik One. America's leaders acted swiftly and decided they would need a way to collect and access all the available technological information at any time. 
  
-Prior to the 1990's some major strides in the development of the internet had already been made we had made.  We had networking, We had sent a message between two computers,the first email had been sent TCP, routing and IP had all been developed but it wasn't until the 1990's that the internet began to touch our personal lives. 
+In 1958 APRA (The Advanced Research Projects Agency) was founded and In 1969, four university computers in America had been linked allowing for primitive national communication. 
  
-On August 6th, 1991 the world's first website was published by Tim Berners-Lee, an employee at Cern. At this point he had already coined the term World Wide Web and the first standard for HMTL and URL's.
+APRANET then developed packets as an efficient way to send data to over computers in their small network.
  
-The url was http://info.cern.ch. and it contained information about the World Wide Web and how you could use it. 
+With the 1970’s came more breakthroughs with the development of TCP and IP allowing the Network to become a Network of Networks.   
  
-Tim Berners-Lee expressed humility in his creation and did not patent his web technology. He wants the web to be open and free to allow as much collaboration and development as possible. He later said "Had the technology been proprietary, and in my total control, it would probably not have taken off. You can’t propose that something be a universal space and at the same time keep control of it.”[^2]
+Despite these major advancements the internet was still very much government and military technology. It wasn’t until the 1990’s that steps were made to make the internet public that it became a household name 
  
-Now that webpages were possible people has already begun iterating on the idea. The first blog appeared in early 1994. Written by Justin Hall, a student at Swarthmore College in Pennsylvania 'Justin’s Links From The Underground' was a personal journal focussed on sharing his life with those online. 
+When Tim Berners-Lee joins Cern in 1979 he wrote a program to understand who did what at Cern. His Program worked by picking up on keywords and cross referencing them. It was called Enquire and worked like an encyclopedia.
  
-Even though websites had become somewhat popularised and were being used creatively we he had no way of indexed all these sites popping up. In comes Web Crawlers and Search engines. 
+It was the ideas from this program that launched his major breakthrough, The World Wide Web 
  
-In 1994 first full web browser was launched called Web Crawler.
+The World Wide Web had the goal of allowing Cern staff to share information from all around the world. WWW had two principals. HTML or HyperText Markup Language and URL or Universal Resource Locator.
  
-In May 1997 the First social media platform, Six Degrees launched. While it was a dinosaur it still included many of the features we take for granted today such as profiles, friends lists, and school affiliations. Unfortunately the internet was far too novel at the time and only 2% of the world was online. It was only in 2002 with the development of Friendster that social media really blew up.  
+HTML is a universal computer language that we use to access the internet while URL is a specific identifier for a website. He used these technologies to launch the first public Website on August 6, 1991. Fortunately Berner-Lee insisted he did not want to patent this technology allowing for rapid adopting and development of his technologies.
  
-Some would say that internet video is the biggest thing of internet and that all started with the development of Youtube in 2005. The first video was titled me at the zoo but by the end of the year it had its first video hit one million views.  
-It is now the third most visited site on the web and second most used search engine  
+Now public facing websites were a possibility, the first blog appeared in early 1994. Written by Justin Hall, a student at Swarthmore College in Pennsylvania 'Justin’s Links From The Underground' was a personal journal focussed on sharing his life with those online.
  
-The question is, where are things going next? What will be the next internet development. 
+Though this seems a very common practice on the internet today, this was an extremely novel concept at the time.
+ 
+By the mid nineties, even though websites had become somewhat popularised and were being used creatively we he had no way of indexing all these sites popping up. In comes Web Crawlers and Search engines.
+ 
+The concept of the search engine had been around for sometime but had limited scope and were mainly used in universities for research purposes.
+ 
+In 1998 Google Search was launched and used algorithms to do more specific indexing allowing for better search results and became the template for search engines going forward. 
+ 
+In May 1997 the First social media platform, Six Degrees launched. While it was a dinosaur it still included many of the features we take for granted today such as profiles, friends lists, and school affiliations. Unfortunately the internet was far too novel at the time and only 2% of the world was online. It was only in 2002 with the development of Friendster that social media really blew up. 
+ 
+Some would say that internet video is now the biggest thing of internet and that all started with the development of Youtube in 2005. Prior to this we only had access to TV, video and DVD so the idea of video on demand, 24/7 skyrocketed to success and continues to be the most popular form of video content today.  
  
  
  ## 2: Define the features of the following technologies that are essential in terms of the development of the internet:    
@@ -36,23 +47,21 @@ Word count guide: 50 - 100 words per dot point
  
   Packets are essential to the development of the internet due to the sheer volume of information traffic at any one time. It would be illogical for every single message to be sent in one piece as it would be huge and would take a long time to arrive at its destination. Therefore, when we send something over the internet it does not follow a fixed path. It goes from computer to computer in something called a packet. A packet contains many different bits from many different transmissions on the internet. These packets have both the IP address of the sender and the IP address of the receiver. The packets pass through something called a router that directs the package and makes sure it goes to the right destination.
 
-Through the development of packets we have ensured reliable and efficient transfers of information allowing for rapid development.
-    
  ### IP addresses (IPv4 and IPv6):
 
-With so many devices in the world trying to connect to the internet, it is necessary to assign Internet Protocol or IP addresses as unique identifiers to these devices. 
+When the internet was convcieved it was on a local network but as the network grew and many devices in the world needed to connect to the internet, it is necessary to assign Internet Protocol or IP addresses as unique identifiers to these devices. 
 
-IPv4, the first version of IP,  is made up of 32 binary bits. It is expressed by four base-10 numbers separated by dots. It is the more commonly used of the two.
+IPv4, the first version of IP, is made up of 32 binary bits. It is expressed by four base-10 numbers separated by dots. It is the more commonly used of the two.
 
 IPv6 is the newest IP address standard. It is made up of 128 binary bits and is expressed by eight groups of base-16 (hexadecimal) digits separated by colons. 
 
-If it wasnt for IP computers wouldn't know how to identify themselves and others. IP allows the amount of computers in the world to grow while still being able to communicate with one another.  
+IP is how the devices identify themselves and others. IP allows the amount of computers in the world to  exponetionally grow, while still being able to maintain unique identities.  
 
  ### Routers and routing:
 
-When a packet travels from the computer it is sent from it will arrive at a router. The Router is a smart device that will read the IP address of the packet and make sure it's heading it's heading to the right destination in the most efficient way. 
+When a packet travels from the computer it is sent from it will arrive at a router. The Router is a smart device that will read the IP address of the packet and make sure it's heading to the right destination in the most efficient way. It is able to identify congestion it will re route the traffic to ensure the information travels in a timely fashion 
 
-If it wasn't for routers packets would not recieve the direction required to get to their destination 
+If it wasn't for routers packets would not travel efficiently to their destination  
     
  ### Domains and DNS:
 
@@ -68,15 +77,15 @@ TCP or Transmission Control Protocol works with your IP and determines how compu
 
 It is in charge of breaking up data into packets that the network can deliver and manages control flow. It also retransmits lost packets and puts them back on the right path.  
 
-If it wasn't for routers packets would get lost along the route to their destination and we would end up with undelivered files making the internet unreliable an inefficient and it would not have become the powerhouse it has today  
+Without TCP, packaging and maintaining quality control of information over the internet, we would either recieve misdirected or incomplete data.
 
 HTTP or Hypertext Transfer Protocol is used to transfer hypertext. HTTP is the foundation of data communication for the web.  
 
-It is the protocol used for viewing webpages. If you browse to "www.google.com" you send a HTTP request to the server. This is represented by the http at the start of the web address. Without HTTP we wouldn't be able to access public webpages and the internet wouldn't have been able to develop. 
+It is the protocol used for viewing webpages. If you browse to "www.google.com" you send a HTTP request to the server. This is represented by the ```` http:\\ ```` at the start of the web address. Without HTTP we wouldn't be able to access public webpages and the internet wouldn't have been able to develop. 
 
 But what if you are inputting or accessing sensitive information? It will all be sent as unprotected text so it leave you open to attacks from hackers.
 
-This is where HTTPS or Secure Hypertext Transfer Protocol comes in. HTTPS encrypts the data being transfered over the internet is secure by using encryption. 
+This is where HTTPS or Secure Hypertext Transfer Protocol comes in. HTTPS encrypts the data being transfered over the internet is secure. 
 
 This development allowed for private messaging or high risk activities like banking or using credit cards online.
 
@@ -84,14 +93,15 @@ Web browsers (requests, rendering and developer tools) (200 - 300 words)
 
 Web Browsers are software that search for and display webpages. 
 
-They translate websites returned by HTTP into inteperable content. They also display HTTPS and FPS (File Tranfer Protocol )
+They translate websites returned by HTTP into inteperable content. They also display HTTPS and FPS (File Tranfer Protocol)
 
-Through the browser the user requests data and the server responds. 
+Through the browser the user requests data and a TCP connection is established. After this the server responds to the request with the webpage and closes the TCP connection. 
 
-Modern browsers now have developed features such as external plugins. 
+When you load up a webpage, the browser converts the HTML and CSS with a feature called the browser rendering engine. This takes the raw HTML and CSS code and translates it into formatted text and images on the browser screen.    
 
+Modern browsers now have developed features such as external plugins and developer tools. External plugins give extra functionality to your browser while development tools allow us to inspect the HTML and CSS embedded in our webpages. With this we can live edit the visuals and text displayed in the browser. They also have tools that allow debugging and a feature that allows users to see how their websites will display on multiple devices. 
 
-
+This is important to web developers so they can see how their webpages are rendered and how
 
 
 ## Explain how each technology has contributed to the development of client and server communication over the internet (50 - 150 words for each technology)
@@ -379,8 +389,13 @@ b) puts allergy_search(255 #this will print the full list of allergies#)
 
 Question 1:
 https://www.history.com/news/the-worlds-first-web-site
+https://searchnetworking.techtarget.com/definition/ARPANET
+https://www.webdesignerdepot.com/2011/03/a-brief-history-of-blogging/
+http://www.searchenginehistory.com/
+https://www.investopedia.com/articles/personal-finance/042415/story-behind-googles-success.asp
 https://www.salientmarketing.com/seo-resources/search-engine-history/webcrawler.html
 https://www.cbsnews.com/pictures/then-and-now-a-history-of-social-networking-sites/2/
+https://www.webdesignerdepot.com/2011/03/a-brief-history-of-blogging/
 
 Question 2:
 https://coderacademy.instructure.com/courses/240/pages/how-the-internet-works?module_item_id=9856​
